@@ -8,8 +8,8 @@ public class CincoNumerosInteiros {
         Scanner teclado = new Scanner(System.in);
         int quantidadeTotalNumeros = 5;
         int contador = 1;
-        List <Integer> numerosDigitados = new ArrayList<>();
-        while (contador <= quantidadeTotalNumeros){
+        List<Integer> numerosDigitados = new ArrayList<>();
+        while (contador <= quantidadeTotalNumeros) {
             System.out.println("Digite o " + contador + "º número: ");
             numerosDigitados.add(teclado.nextInt());
             contador++;
